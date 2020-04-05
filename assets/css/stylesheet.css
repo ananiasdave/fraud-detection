@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--cyan) !important;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+#hash-tag {
+  font-size: 1.6rem;
+  font-weight: 900;
+  padding: 2px;
+}
+
+.nav-item {
+  font-weight: 600;
+}
+
+.form-group .form-control-file {
+  height: 50px;
+}
+
+.form-group .form-control-file button {
+  height: 50px !important;
+}
+
+.navbar-nav .active a {
+  color: var(--cyan) !important;
+}
+
+.section-action .btn {
+  width: 200px;
+}
+
+textarea {
+  resize: none;
+  editable: none;
+}
+.form-control-file {
+  position: relative;
+  padding: 10px !important;
+}
+.form-control-file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.form-control-file::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: 'Browse';
+  display: inline-block;
+  padding: 12px 15px;
+  background-color: #17a2b8;
+  color: white;
+  height: 48px;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.form-control-file:hover::before {
+  background-color: var(--cyan) !important
+}
